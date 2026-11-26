@@ -3,7 +3,7 @@
 </p>
 
 <p align="center">
-  <a href="https://t.me/devharborhq"><img src="https://img.shields.io/badge/telegram-t.me%2Fdevharborhq-5eead4?style=for-the-badge&logo=telegram&logoColor=5eead4&labelColor=0b1117" alt="Telegram"></a>
+  <a href="https://t.me/+t1qJ_32133FjNjNk"><img src="https://img.shields.io/badge/telegram-t.me%2Fdevharborhq-5eead4?style=for-the-badge&logo=telegram&logoColor=5eead4&labelColor=0b1117" alt="Telegram"></a>
   <a href="https://github.com/devharborhq/telegram-guard"><img src="https://img.shields.io/badge/project-telegram--guard-5eead4?style=for-the-badge&logo=github&logoColor=5eead4&labelColor=0b1117" alt="telegram-guard"></a>
   <a href="https://github.com/devharborhq/telegram-guard/issues?q=is%3Aopen+label%3A%22good+first+issue%22"><img src="https://img.shields.io/badge/good_first_issues-open-f0c674?style=for-the-badge&labelColor=0b1117" alt="good first issues"></a>
 </p>
@@ -48,4 +48,4 @@ $ ./join --group devharbor
 [+] done. say hi 👋
 ```
 
-<p align="center"><sub>⚓ built in the open by DevHarbor · <a href="https://t.me/devharborhq">t.me/devharborhq</a></sub></p>
+<p align="center"><sub>⚓ built in the open by DevHarbor · <a href="https://t.me/+t1qJ_32133FjNjNk">t.me/devharborhq</a></sub></p>
