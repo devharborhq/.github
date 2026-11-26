@@ -1,0 +1,71 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="900" height="320" viewBox="0 0 900 320" role="img" aria-label="DevHarbor terminal banner">
+  <defs>
+    <linearGradient id="bg" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0" stop-color="#05080f"/>
+      <stop offset="1" stop-color="#071a1f"/>
+    </linearGradient>
+    <pattern id="grid" width="24" height="24" patternUnits="userSpaceOnUse">
+      <path d="M24 0H0V24" fill="none" stroke="#5eead4" stroke-opacity="0.05"/>
+    </pattern>
+    <pattern id="scan" width="4" height="4" patternUnits="userSpaceOnUse">
+      <rect width="4" height="1" fill="#000" fill-opacity="0.25"/>
+    </pattern>
+    <filter id="glow" x="-20%" y="-50%" width="140%" height="200%">
+      <feGaussianBlur stdDeviation="2.2" result="b"/>
+      <feMerge><feMergeNode in="b"/><feMergeNode in="SourceGraphic"/></feMerge>
+    </filter>
+    <style>
+      .m { font-family: "JetBrains Mono", "Fira Code", Consolas, "DejaVu Sans Mono", monospace; font-size: 17px; }
+      .p { fill: #5eead4; }
+      .c { fill: #e6edf3; }
+      .d { fill: #7d8590; }
+      .a { fill: #5eead4; }
+      .w { fill: #f0c674; }
+      .cur { fill: #5eead4; animation: blink 1s steps(1) infinite; }
+      @keyframes blink { 50% { opacity: 0; } }
+      .l { opacity: 0; animation: show 0.01s forwards; }
+      @keyframes show { to { opacity: 1; } }
+    </style>
+    <clipPath id="t1"><rect x="60" y="88" height="26" width="0"><animate attributeName="width" from="0" to="140" begin="0.4s" dur="0.6s" fill="freeze"/></rect></clipPath>
+    <clipPath id="t2"><rect x="60" y="148" height="26" width="0"><animate attributeName="width" from="0" to="200" begin="2.1s" dur="0.7s" fill="freeze"/></rect></clipPath>
+    <clipPath id="t3"><rect x="60" y="208" height="26" width="0"><animate attributeName="width" from="0" to="210" begin="4.0s" dur="0.7s" fill="freeze"/></rect></clipPath>
+  </defs>
+
+  <rect width="900" height="320" fill="url(#bg)"/>
+  <rect width="900" height="320" fill="url(#grid)"/>
+
+  <!-- window -->
+  <rect x="30" y="24" width="840" height="272" rx="10" fill="#0b1117" fill-opacity="0.85" stroke="#5eead4" stroke-opacity="0.35"/>
+  <rect x="30" y="24" width="840" height="34" rx="10" fill="#0f1a21"/>
+  <rect x="30" y="48" width="840" height="10" fill="#0f1a21"/>
+  <circle cx="54" cy="41" r="6" fill="#ff5f56"/><circle cx="74" cy="41" r="6" fill="#ffbd2e"/><circle cx="94" cy="41" r="6" fill="#27c93f"/>
+  <text x="450" y="46" text-anchor="middle" class="m d" font-size="14">root@devharbor: ~</text>
+
+  <!-- anchor mark -->
+  <g transform="translate(760 150)" filter="url(#glow)" fill="none" stroke="#5eead4" stroke-width="5" stroke-linecap="round" opacity="0.9">
+    <circle cx="0" cy="-58" r="10"/>
+    <path d="M0 -48 V48 M-24 -30 H24 M-44 18 C-40 44 -20 56 0 56 C20 56 40 44 44 18"/>
+    <path d="M-50 26 L-44 14 L-34 24 M50 26 L44 14 L34 24"/>
+  </g>
+  <text x="760" y="245" text-anchor="middle" class="m a" font-size="16" filter="url(#glow)">&lt;/&gt;</text>
+
+  <!-- session -->
+  <g class="m">
+    <text x="60" y="106"><tspan class="p">$ </tspan></text>
+    <text x="78" y="106" class="c" clip-path="url(#t1)">whoami</text>
+    <text x="60" y="132" class="l" style="animation-delay:1.3s"><tspan class="a" filter="url(#glow)">devharbor</tspan><tspan class="d"> // devs from everywhere, building in the open</tspan></text>
+
+    <text x="60" y="166"><tspan class="p">$ </tspan></text>
+    <text x="78" y="166" class="c" clip-path="url(#t2)">ls ./projects</text>
+    <text x="60" y="192" class="l" style="animation-delay:3.1s"><tspan class="w">telegram-guard/</tspan><tspan class="d">  anti-spam · join checks · link &amp; file scanning</tspan></text>
+
+    <text x="60" y="226"><tspan class="p">$ </tspan></text>
+    <text x="78" y="226" class="c" clip-path="url(#t3)">./join --group</text>
+    <text x="60" y="252" class="l" style="animation-delay:5.0s"><tspan class="d">[</tspan><tspan class="a">ok</tspan><tspan class="d">] connecting to </tspan><tspan class="a" filter="url(#glow)">t.me/devharborhq</tspan></text>
+
+    <text x="60" y="280" class="l" style="animation-delay:5.6s"><tspan class="p">$ </tspan></text>
+    <rect x="80" y="266" width="10" height="18" class="cur l" style="animation: show 0.01s 5.6s forwards, blink 1s steps(1) 5.6s infinite"/>
+  </g>
+
+  <rect width="900" height="320" fill="url(#scan)" pointer-events="none"/>
+</svg>

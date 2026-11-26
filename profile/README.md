@@ -1,14 +1,51 @@
-## Hey, we're DevHarbor ⚓
+<p align="center">
+  <img src="banner.svg" alt="root@devharbor:~$ whoami" width="100%">
+</p>
 
-A small group of developers from different countries who hang out on Telegram, help each other
-out and build open-source tools together. Any level is welcome, learning is the point.
+<p align="center">
+  <a href="https://t.me/devharborhq"><img src="https://img.shields.io/badge/telegram-t.me%2Fdevharborhq-5eead4?style=for-the-badge&logo=telegram&logoColor=5eead4&labelColor=0b1117" alt="Telegram"></a>
+  <a href="https://github.com/devharborhq/telegram-guard"><img src="https://img.shields.io/badge/project-telegram--guard-5eead4?style=for-the-badge&logo=github&logoColor=5eead4&labelColor=0b1117" alt="telegram-guard"></a>
+  <a href="https://github.com/devharborhq/telegram-guard/issues?q=is%3Aopen+label%3A%22good+first+issue%22"><img src="https://img.shields.io/badge/good_first_issues-open-f0c674?style=for-the-badge&labelColor=0b1117" alt="good first issues"></a>
+</p>
 
-**Projects**
+```console
+$ cat /etc/motd
 
-- [telegram-guard](https://github.com/devharborhq/telegram-guard): the anti-spam and safety bot
-  that protects our own group. Join verification, raid and flood protection, link and file
-  scanning. Python. Look for issues labelled `good first issue`.
+  devs from different countries, one Telegram group.
+  we break things, fix them, and ship the tools in the open.
+  any level welcome. curiosity > experience.
+```
 
-More projects are on the way, ideas welcome.
+### `~/projects`
 
-**Come say hi:** [t.me/devharborhq](https://t.me/devharborhq)
+```console
+$ tree -L 1 ./projects
+.
+├── telegram-guard   # the bot that guards our own group: join checks, raid & flood
+│                    # protection, link + file scanning (VirusTotal). python.
+└── ...              # next one is up to whoever shows up
+```
+
+**[telegram-guard](https://github.com/devharborhq/telegram-guard)** runs 24/7 in our group and blocks spam bots, scam links and malware files before members ever see them. Want to poke at it? Grab a [`good first issue`](https://github.com/devharborhq/telegram-guard/issues?q=is%3Aopen+label%3A%22good+first+issue%22), or try to get something past it and [tell us how](https://github.com/devharborhq/telegram-guard/security) 🙂
+
+### `~/stack`
+
+<p>
+  <img src="https://img.shields.io/badge/python-0b1117?style=flat-square&logo=python&logoColor=5eead4" alt="Python">
+  <img src="https://img.shields.io/badge/rust-0b1117?style=flat-square&logo=rust&logoColor=5eead4" alt="Rust">
+  <img src="https://img.shields.io/badge/linux-0b1117?style=flat-square&logo=linux&logoColor=5eead4" alt="Linux">
+  <img src="https://img.shields.io/badge/telegram_bots-0b1117?style=flat-square&logo=telegram&logoColor=5eead4" alt="Telegram bots">
+  <img src="https://img.shields.io/badge/security-0b1117?style=flat-square&logo=hackthebox&logoColor=5eead4" alt="Security">
+  <img src="https://img.shields.io/badge/github_actions-0b1117?style=flat-square&logo=githubactions&logoColor=5eead4" alt="GitHub Actions">
+</p>
+
+### `./join`
+
+```console
+$ ./join --group devharbor
+[*] resolving t.me/devharborhq ...
+[+] ask anything · show what you're building · find people to build with
+[+] done. say hi 👋
+```
+
+<p align="center"><sub>⚓ built in the open by DevHarbor · <a href="https://t.me/devharborhq">t.me/devharborhq</a></sub></p>
